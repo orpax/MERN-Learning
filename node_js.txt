@@ -1,0 +1,36 @@
+NODE JS
+
+* Node.js is an open-source and cross platform Javascript runtime environtment
+// Node.js adalah lingkungan runtime Javascript sumber terbuka dan lintas platform
+
+* Node.js runs the V8 Javascript engine, the core of google chrome, outside of 
+the browser
+// Node.js menjalankan versi 8 Javascript, salah satu kekuatan dari google chrome di luar 
+browsernya
+
+* A Node.js app runs in a single process, without creating a new thread for every request
+// Node.js berjalan di aplikasi yang dimana satu process, tidak perlu membuat thread baru untuk setiap request
+
+* Node.js uses event driven, non blocking I/0 model to handle concurrent request with single thread
+// 
+* Node.js menggunakan model I/0 non-pemblokiran yang digerakkan oleh peristiwa untuk menangani permintaan bersamaan dengan utas tunggal
+
+Mengapa Node.js Sangat populer?
+
+* Javascript Everywhere (klien + Server)
+* Performa Cepat
+* Ringan - Arsitektur berbasis event-driven bawaan
+* Faster time to market
+* Modern Architecture & Scalability
+* Cross platform - Creating aplikasi
+* Vast number of libraries and packages
+* Can be hosted anywhere
+
+Membuat Aplikasi Dengan Node.js
+
+* Streaming web applications like Netflix, Amazon
+* Real-time web applications like chat, wa
+* Microservices and IOT applications
+* Build any mern stack application like Ecommerce, Payments
+* Social media and networking applications like linkedin
+* create restful APIs
