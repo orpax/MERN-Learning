@@ -1,2 +1,3 @@
 console.log("Nama Saya : " + process.env.NAME);
-console.log("Profesi Saya: " + process.env.PROFESSION);
+console.log("Hobi Saya: " + process.env.TEST);
+console.log("Hobi Saya: " + process.env.JOB);

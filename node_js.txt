@@ -34,3 +34,19 @@ Membuat Aplikasi Dengan Node.js
 * Build any mern stack application like Ecommerce, Payments
 * Social media and networking applications like linkedin
 * create restful APIs
+
+Buat Setup Project 
+
+1. npm init -y
+2. npm i --save-dev nodemon 
+3. npm -r dotenv/config env.js untuk ngecall data dari .env kedalam env.js
+4. Command Node untuk masuk ke terminal node
+5. npm i minimist untuk node tentang argument
+
+Introduce About NPM 
+
+1. npm is standard package manager for node.js
+2. As of Sep 2022 is hat around 2.1 million package installed in npm registry
+3. NPM is a way downlaod and manage dependencies for both frontend and backend 
+applications using Javascript
+4. Yarn and pnpm are the alternative to npm cli
