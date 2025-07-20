@@ -1,4 +1,4 @@
-// console.log("Hello World");
+console.log("Hello World");
 
 // const fs = require("fs");
 
