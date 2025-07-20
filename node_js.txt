@@ -50,3 +50,30 @@ Introduce About NPM
 3. NPM is a way downlaod and manage dependencies for both frontend and backend 
 applications using Javascript
 4. Yarn and pnpm are the alternative to npm cli
+
+NPM Command
+
+1. npm init
+2. npm install to install all dependencies
+3. npm install <package name> [-g --save-dev --no-save, ==save-optional, --no-optional]
+4. npm install <package name>@<version> karena setiap versi dari dependencies itu berbeda berbeda
+5. npm update yang berguna untuk mengupdate semua dependencies
+6. npm update <package name> yang berguna hanya untuk mengupdate satu dependencies
+7. npm run <task name>
+8. npm list
+9. npm view <package name> version
+10. npm uninstall <package name>
+11. npm help 
+
+Semantic Version 
+
+"express": ^4.18.1
+
+x = the first digit is major version
+y = the second digit is minor version 
+z = the third digit is patch version
+
+version nya
+
+^4.18.1 : means change the minor or patch version
+~4.18.1 : menas change only the patch version

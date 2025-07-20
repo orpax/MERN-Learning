@@ -18,8 +18,25 @@ console.log("Hello World");
 //   console.log("Server running at http://localhost:3000/");
 // });
 
-console.log("Hello World");
+// console.log("Hello World");
 
-process.exit(0);
+// process.exit(0);
 
-// process.exitCode = 1;
+// // process.exitCode = 1;
+
+// const a = require("lodash");
+
+// const arr = [2, 4, 6, 8];
+// console.log(a.indexOf(arr));
+
+// const cowsay = require("cowsay");
+// console.log(
+//   cowsay.say({
+//     text: "Saya Siap Menjadi Sepuh JS",
+//     e: "00",
+//     t: "a",
+//   })
+// );
+
+const { data } = require("./car");
+console.log(JSON.stringify(data, null, 2));
