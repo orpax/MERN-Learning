@@ -55,6 +55,22 @@ fs.writeFile(txtFile, content, "utf-8", (err) => {
   console.log("Write operation completed successfully!");
   fs.readFile(txtFile, "utf-8", (err, data) => {
     if (err) throw new Error("Something Went Wrong!");
-    console.log(data);
   });
 });
+
+const writeFileAsync = async () => {
+  try {
+    await fsPromise.writeFile(txtFile, "\nHalo Ini Data Nama 3", {
+      encoding: "utf-8",
+      flag: "a", // 'a' for append, 'w' for write
+    });
+
+    // await fsPromise.appendFile(txtFile, "\nHalo Ini Data Nama Saya 2");
+    await fsPromise.rename(txtFile, path.join(__dirname, "files", "new.txt"));
+    const data = await fsPromise.readFile(txtFile);
+  } catch (err) {
+    console.log("Error!");
+  }
+};
+
+writeFileAsync();
