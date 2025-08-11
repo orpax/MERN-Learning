@@ -61,3 +61,7 @@ let multipleApiCalls = [
 Promise.all(multipleApiCalls).then((val) => {
   console.log(val);
 });
+
+Promise.race(multipleApiCalls).then((val) => {
+  console.log(val);
+});
