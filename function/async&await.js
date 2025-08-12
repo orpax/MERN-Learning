@@ -19,11 +19,56 @@ function goToHomePage(cek) {
   return Promise.resolve(`Goto Home Page : ${cek}`);
 }
 
-login()
-  .then((response) => {
-    console.log("Validated Data");
-    return goToHomePage(response);
-  })
-  .then((cek) => {
-    console.log(cek);
+// Promises
+
+// login()
+//   .then((response) => {
+//     console.log("Validated Data");
+//     return goToHomePage(response);
+//   })
+//   .then((cek) => {
+//     console.log(cek);
+//   })
+//   .catch((err) => {
+//     console.error(err);
+//   });
+
+// Async/Await
+
+// async function LoginAsync() {
+//   try {
+//     const response = await login();
+//     console.log("Validated Data");
+//     const cek = await goToHomePage(response);
+//     console.log(cek);
+//   } catch (err) {
+//     console.error(err);
+//   }
+// }
+
+// LoginAsync();
+
+const makeApiCall = (time) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("API call completed " + time);
+    }, time);
   });
+};
+
+let multipleApiCalls = [
+  makeApiCall(1000),
+  makeApiCall(2000),
+  makeApiCall(3000),
+];
+
+(async function () {
+  for (let request of multipleApiCalls) {
+    try {
+      const response = await request;
+      console.log(response);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+})();

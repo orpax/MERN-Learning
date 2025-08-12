@@ -1,0 +1,19 @@
+{
+  "name": "node_crud",
+  "version": "1.0.0",
+  "description": "Pembelajaran Pertamana Saya Membuat Crud di Node",
+  "license": "ISC",
+  "author": "Orpax",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}

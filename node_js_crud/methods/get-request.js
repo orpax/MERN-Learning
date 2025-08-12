@@ -1,0 +1,1 @@
+modelu.export = (req, res) => {};
