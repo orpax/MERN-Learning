@@ -1,7 +1,7 @@
 const http = require("http");
 // require("dotenv").config();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const getReq = require("./methods/get-request");
 const postReq = require("./methods/post-request");
 const putReq = require("./methods/put-request");
