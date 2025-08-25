@@ -6,7 +6,8 @@ module.exports = async (request) =>
         body += chunk.toString();
       });
       request.on("end", () => {
-        resolve(body);
+        const parsed = JSON.parse(body);
+        resolve(parsed);
       });
     } catch (err) {
       reject(err);

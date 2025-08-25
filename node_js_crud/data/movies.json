@@ -4,14 +4,14 @@
     "title": "Laskar Pelangi",
     "genre": "Drama",
     "year": 2008,
-    "rating": 8.0
+    "rating": 8
   },
   {
     "id": "6f1a7d3a-5f9b-4d3d-9b1d-1a2b3c4d5e6f",
-    "title": "The Raid",
-    "genre": "Action",
-    "year": 2011,
-    "rating": 7.6
+    "title": "Tio PRamana",
+    "genre": "Film",
+    "year": 2025,
+    "rating": 8
   },
   {
     "id": "3b12f1df-5232-4804-897e-917bf397618a",
@@ -33,5 +33,19 @@
     "genre": "Superhero",
     "year": 2019,
     "rating": 6.8
+  },
+  {
+    "title": "Gulat : End Game",
+    "genre": "Drama",
+    "year": 2008,
+    "rating": 8,
+    "id": "de7ab4b7-a3bd-4b90-97c5-cffa93897057"
+  },
+  {
+    "title": "Lorem And Ipsum : End Game",
+    "genre": "Film",
+    "year": 2025,
+    "rating": 8,
+    "id": "0f8cfe41-c6a3-4178-a8c4-84f75b32a63d"
   }
 ]
