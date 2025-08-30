@@ -1,0 +1,63 @@
+Express js adalah aplikasi web terkenal dari node js framework yang memberikan
+fitur dalam pembuatan website dan aplikasi mobile
+
+Express js memberikan lapisan yang tipis dari fundamental nya untuk membuat aplikasi 
+mobile dan terbuat diatas node js dengan fitur yang kita tau dan cintai. Ini adalah express performant
+
+Fitur pada Express js
+
+* Server yang cepat untuk develop aplikasi
+* MiddleWare (Inti nya MiddleWare itu jadi tempat validasi
+atau penyaringan request/data sebelum masuk ke api biasa nya berlapis
+){
+    var express = require ("express");
+var app = express();
+
+app.get('/', function (req, res, next){
+    next(); 
+})
+
+app.listen(3000);
+
+Penjelasan dari line nya 
+
+* Get = metode http yang digunakan untuk setiap function dari akan terpasang
+* / = path atau lokasi file untuk middleware function nya berjalan
+* function = middleware function 
+
+* req = http request argument ke middleware function
+* res = http respone argument to middleware function
+* next = callback function ke middleware function
+},
+
+* Routing Routing = cara Express menangani request berdasarkan HTTP Method (GET, POST, PUT, DELETE, dll) dan path/endpoint.
+
+Bisa untuk web (HTML) atau API (JSON).
+Mendukung:
+Static route → /home, /about
+Dynamic route (params) → /users/:id
+Query string → /search?keyword=nodejs
+Modularisasi routing bisa pakai express.Router() agar kode lebih rapi.
+
+* Statics File = Express bisa melayani file statis seperti CSS, gambar, JavaScript frontend.
+Gunakan middleware express.static().
+Contoh:
+app.use(express.static("public"));
+
+* Template Engine = Template Engine
+Template engine = sistem untuk render HTML dinamis di server.
+Dengan template engine, kita bisa passing data dari server ke file HTML.
+Contoh engine populer: EJS, Pug, Handlebars.
+Contoh dengan EJS:
+
+app.set("view engine", "ejs");
+
+app.get("/", (req, res) => {
+    res.render("index", { title: "Halo Express!" });
+});
+
+
+File views/
+
+* Debugging 
+

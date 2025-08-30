@@ -1,15 +1,8 @@
 [
   {
-    "id": "550e8400-e29b-41d4-a716-446655440000",
-    "title": "Laskar Pelangi",
-    "genre": "Drama",
-    "year": 2008,
-    "rating": 8
-  },
-  {
     "id": "6f1a7d3a-5f9b-4d3d-9b1d-1a2b3c4d5e6f",
-    "title": "Tio PRamana",
-    "genre": "Film",
+    "title": "Jakarta Gojek 2025",
+    "genre": "Democracy",
     "year": 2025,
     "rating": 8
   },
@@ -40,12 +33,5 @@
     "year": 2008,
     "rating": 8,
     "id": "de7ab4b7-a3bd-4b90-97c5-cffa93897057"
-  },
-  {
-    "title": "Lorem And Ipsum : End Game",
-    "genre": "Film",
-    "year": 2025,
-    "rating": 8,
-    "id": "0f8cfe41-c6a3-4178-a8c4-84f75b32a63d"
   }
 ]

@@ -1,0 +1,12 @@
+{
+  "name": "express_js",
+  "version": "1.0.0",
+  "description": "Percobaan Pembelajaran Express JS",
+  "license": "ISC",
+  "author": "Orpax",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
