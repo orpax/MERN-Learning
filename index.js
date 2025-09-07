@@ -1,11 +1,11 @@
 console.log("Hello World");
 
-// const fs = require("fs");
+const fs = require("fs");
 
-// fs.readFile("node_js.txt", "utf8", (err, data) => {
-//   if (err) throw err;
-//   console.log(data);
-// });
+fs.readFile("node_js.txt", "utf8", (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
 
 // const http = require("http");
 
